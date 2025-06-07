@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 750;
+    color: #f9faf8;
+}
+
+
+.contenedor-1 {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedor-header {
+    display: flex;
+    font-size: 30px;
+    color: #f9faf8; 
+    font-weight: 900;
+    height: 400px;
+    align-items: center;
+    gap: 30px;
+    justify-content:space-between;
+}
+
+.contenedor-header p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+
+.img-contenedor-1,
+.texto-boton {
+    width: 450px;
+    height: 300px;
+    
+}
+
+.img-contenedor-1 {
+    background-color: #83888f;
+    width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.texto-boton button {
+    background-color: #3882f6;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+}
+
+.contenedor-2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px; 
+}
+
+.contenedor-2 p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.imagenes-contenedor-2 {
+    display: flex;
+    
+}
+
+.imagenes-contenedor-2 ul li {
+    width: 300px;
+    height: auto;
+    border: 3px solid #3882f6;
+}
+
+
+.contenedor-3 {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    height: 400px;
+    align-items: center;
+}
+
+.contenedor-4 {
+    background-color: #ffffff;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-5 {
+    display: flex;
+    height: 200px;
+    width: 1500px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor-1,
+.contenedor-2,
+.contenedor-3,
+.contenedor-4,
+footer {
+    padding: 0 300px;
+}
